@@ -18,7 +18,6 @@ export default async function (
     res.end(JSON.stringify({ response: "Agencia não encontrada" }));
     return // cai fora
   }
-
   const pipeline = [
     {
       '$project': {
